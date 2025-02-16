@@ -1,44 +1,63 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
 }
 
 header {
-    background: #444;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
+    background-color: #1f1f1f;
+    padding: 15px;
+    text-align: center;
 }
 
-.content, .links {
-    background: white;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-}
-
-.links ul {
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-.links li {
+nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-.links a {
+nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #007BFF;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    width: 60%;
+}
+
+.profile {
+    width: 30%;
+    text-align: center;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.profile a {
+    color: #4ca6ff;
+    text-decoration: none;
+}
+
+.highlight {
+    color: red;
     font-weight: bold;
 }
