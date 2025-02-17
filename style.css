@@ -49,23 +49,6 @@ nav ul li a {
     padding-right: 40px;
 }
 
-h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    font-size: 1.2rem;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-.bio {
-    font-size: 1.2rem;
-    text-align: justify;
-}
-
 /* Right Section (Profile) */
 .profile {
     width: 30%;
@@ -73,19 +56,28 @@ h1 {
     background: #2c2c2c;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
 }
 
+/* Profile Image */
 .profile img {
     width: 100%;
     max-width: 220px;
     border-radius: 10px;
+    display: block;
 }
 
+/* Profile Text */
 .profile p {
     font-size: 1.2rem;
     margin: 10px 0;
+    text-align: center;
 }
 
+/* Links */
 .profile a {
     color: #4ca6ff;
     text-decoration: none;
@@ -105,6 +97,7 @@ h1 {
     text-indent: -20px;
 }
 
+/* Bullet Points */
 .research-list li::before {
     content: "✔️"; 
     color: #4ca6ff;
