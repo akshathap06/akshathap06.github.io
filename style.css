@@ -1,11 +1,11 @@
 /* General Styling */
 body {
-    font-family: "Lora", serif;
+    font-family: "Courier New", Courier, monospace; /* Typewriter font */
     background-color: #1e1e1e; /* Dark background */
     color: white;
     margin: 0;
     padding: 0;
-    line-height: 1.8;
+    line-height: 2; /* Double spacing */
 }
 
 /* Navigation Bar */
@@ -38,13 +38,13 @@ nav ul li a {
     width: 80%;
     margin: auto;
     padding: 60px 0;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
 /* Left Section (Info) */
 .info {
-    width: 60%;
+    width: 65%;
     text-align: left;
     padding-right: 40px;
 }
@@ -58,7 +58,7 @@ h1 {
 .subtitle {
     font-size: 1.2rem;
     font-style: italic;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .bio {
@@ -70,12 +70,20 @@ h1 {
 .profile {
     width: 30%;
     text-align: left;
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .profile img {
     width: 100%;
     max-width: 220px;
     border-radius: 10px;
+}
+
+.profile p {
+    font-size: 1.2rem;
+    margin: 10px 0;
 }
 
 .profile a {
@@ -121,7 +129,6 @@ h1 {
 
 /* Email Styling */
 .email {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
-
