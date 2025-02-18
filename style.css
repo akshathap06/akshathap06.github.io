@@ -1,11 +1,11 @@
 /* General Styling */
 body {
-    font-family: "Courier New", Courier, monospace; /* Professional typewriter-style font */
+    font-family: "Lora", serif; /* More professional font */
     background-color: #1e1e1e; /* Dark background */
     color: white;
     margin: 0;
     padding: 0;
-    line-height: 1.4; /* Adjusted line spacing for readability */
+    line-height: 1.7; /* Adjusted line spacing for readability */
 }
 
 /* Navigation Bar */
@@ -36,41 +36,41 @@ nav ul li a {
 /* Main Container */
 .container {
     display: flex;
-    width: 70%; /* Increase margin to center content and extend text downward */
+    width: 75%; /* Increased width for better spacing */
     margin: auto;
-    padding: 100px 0; /* Increased vertical padding for better spacing */
+    padding: 80px 0; /* Increased vertical spacing */
     align-items: flex-start;
     justify-content: space-between;
 }
 
 /* Left Section (Info) */
 .info {
-    width: 65%;
+    width: 63%;
     text-align: left;
-    padding-right: 50px;
+    padding-right: 60px; /* More spacing for better readability */
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-style: italic;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .bio {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 /* Right Section (Profile) */
 .profile {
-    width: 30%;
+    width: 32%;
     text-align: left;
     background: #2c2c2c;
     padding: 25px;
@@ -78,13 +78,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 350px;
+    min-height: 380px;
 }
 
 /* Profile Image */
 .profile img {
     width: 100%;
-    max-width: 230px;
+    max-width: 250px;
     border-radius: 10px;
     display: block;
     margin-bottom: 15px;
@@ -93,7 +93,7 @@ h1 {
 /* Profile Text */
 .profile p {
     font-size: 1.2rem;
-    margin: 10px 0;
+    margin: 12px 0;
     text-align: center;
 }
 
@@ -108,14 +108,14 @@ h1 {
 .research-list, .experience-list {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .research-list li, .experience-list li {
-    font-size: 1.2rem;
-    padding-left: 25px;
-    margin-bottom: 15px;
-    text-indent: -25px;
+    font-size: 1.3rem;
+    padding-left: 30px;
+    margin-bottom: 18px;
+    text-indent: -30px;
 }
 
 /* Bullet Points */
@@ -124,7 +124,7 @@ h1 {
     color: #4ca6ff;
     font-size: 1.3rem;
     display: inline-block;
-    width: 20px;
+    width: 25px;
 }
 
 .experience-list li::before {
@@ -132,7 +132,7 @@ h1 {
     color: #4ca6ff;
     font-size: 1.3rem;
     display: inline-block;
-    width: 20px;
+    width: 25px;
 }
 
 /* Highlight Important Text */
