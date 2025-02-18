@@ -1,11 +1,11 @@
 /* General Styling */
 body {
-    font-family: "Lora", serif; /* More professional font */
+    font-family: "Lora", serif; /* Professional serif font */
     background-color: #1e1e1e; /* Dark background */
     color: white;
     margin: 0;
     padding: 0;
-    line-height: 1.7; /* Adjusted line spacing for readability */
+    line-height: 1.7; /* Better readability */
 }
 
 /* Navigation Bar */
@@ -39,15 +39,16 @@ nav ul li a {
     width: 75%; /* Increased width for better spacing */
     margin: auto;
     padding: 80px 0; /* Increased vertical spacing */
-    align-items: flex-start;
+    align-items: flex-start; /* Ensure everything aligns at the top */
     justify-content: space-between;
+    align-items: stretch;
 }
 
 /* Left Section (Info) */
 .info {
     width: 63%;
     text-align: left;
-    padding-right: 60px; /* More spacing for better readability */
+    padding-right: 60px;
 }
 
 h1 {
@@ -56,21 +57,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-.subtitle {
-    font-size: 1.4rem;
-    font-style: italic;
-    margin-bottom: 30px;
-}
-
-.bio {
-    font-size: 1.3rem;
-    text-align: justify;
-    margin-bottom: 25px;
-}
-
-/* Right Section (Profile) */
+/* Adjust profile box position */
 .profile {
-    width: 32%;
+    width: 30%;
     text-align: left;
     background: #2c2c2c;
     padding: 25px;
@@ -78,7 +67,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 380px;
+    position: relative;
+    top: -20px; /* Move it up to align with name */
 }
 
 /* Profile Image */
