@@ -38,7 +38,7 @@ nav ul li a {
     display: flex;
     width: 75%; /* Increased width for better spacing */
     margin: auto;
-    padding: 150px 0; /* Increased vertical spacing */
+    padding: 0px 0; /* Increased vertical spacing */
     align-items: flex-start; /* Ensure everything aligns at the top */
     justify-content: space-between;
     align-items: stretch;
