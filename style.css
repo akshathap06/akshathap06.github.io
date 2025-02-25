@@ -3,7 +3,7 @@ body {
     font-family: "Lora", serif; /* Professional serif font */
     background-color: #1e1e1e; /* Dark background */
     color: white;
-    margin: 0;
+    margin: 50;
     padding: 0;
     line-height: 1.7; /* Better readability */
 }
