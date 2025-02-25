@@ -82,7 +82,8 @@ h1 {
 
 /* Profile Text */
 .profile p {
-    font-size: 1.2rem;
+    /* changed */ 
+    font-size: 5.2rem;
     margin: 12px 0;
     text-align: center;
 }
@@ -102,7 +103,7 @@ h1 {
 }
 
 .research-list li, .experience-list li {
-    font-size: 1.3rem;
+    font-size: 5.2rem;
     padding-left: 30px;
     margin-bottom: 18px;
     text-indent: -30px;
