@@ -7,7 +7,7 @@ body {
 
 .header {
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 0 10px;
 }
 
 .profile-pic {
@@ -41,17 +41,15 @@ body {
   max-width: 1200px;
   margin: 30px auto;
   padding: 20px;
-  flex-wrap: wrap;
 }
 
 .left-panel {
   flex: 1;
-  min-width: 300px;
   margin-right: 40px;
 }
 
 .right-panel {
-  width: 280px;
+  width: 300px;
   background-color: #161b22;
   border-radius: 10px;
   padding: 20px;
@@ -89,6 +87,31 @@ li {
   margin-bottom: 10px;
 }
 
+/* Dropdown Styling */
+.dropdown-btn {
+  background-color: transparent;
+  color: #58a6ff;
+  border: none;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  padding: 5px 0;
+  font-weight: bold;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-left: 2px solid #30363d;
+}
+
+.dropdown-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 a {
   color: #58a6ff;
 }
@@ -96,4 +119,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
