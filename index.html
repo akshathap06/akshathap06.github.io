@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="header">
-    <img class="profile-pic" src="pfp" alt="Akshat Profile Picture">
+    <img class="profile-pic" src="pfp.jpg" alt="Akshat Profile Picture">
     <div class="nav">
       <a href="#">Home</a>
       <a href="#">Projects</a>
@@ -26,21 +26,60 @@
 
       <p class="highlight">🚀 Open to opportunities in AI research, quant dev, and tech for social impact.</p>
 
-      <h2>Research Interests</h2>
-      <ul class="research-list">
-        <li>Machine Learning for Finance & Healthcare</li>
-        <li>Digital Infrastructure in Emerging Markets</li>
-        <li>Artist Analytics using AI (MusiStash)</li>
-        <li>Policy-driven Data Science</li>
-      </ul>
-
       <h2>Experience</h2>
       <ul class="experience-list">
-        <li><strong>MicroSave Consulting</strong> – Fintech research intern</li>
-        <li><strong>MusiStash</strong> – Founder, AI modeling for artist success</li>
-        <li><strong>SMARTTechNexus</strong> – AI financial data research</li>
-        <li><strong>Xfinity/Comcast</strong> – Customer analytics projects</li>
-        <li><strong>BizBox</strong> – Digital marketing analytics</li>
+        <li>
+          <button class="dropdown-btn"><strong>Sorba.AI</strong> – AI Data Science Intern</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Co-developed and fine-tuned custom transformer-based LLMs for clients like Coca-Cola and Johnson & Johnson.</li>
+              <li>Improved predictive maintenance accuracy by 35% and reduced unplanned equipment failures by 22%.</li>
+              <li>Integrated LLMs into IoT platforms, leading to $2.1M in estimated annual savings.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>MicroSave Consulting</strong> – Fintech Research Intern</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Researched 50+ AgriTech companies to shape CIHA innovation strategies.</li>
+              <li>Led 25+ stakeholder meetings, securing 10+ strategic partnerships.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>MusiStash</strong> – Founder</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Built a platform enabling fan-based music investment and AI-based artist evaluation.</li>
+              <li>Designed a proprietary algorithm to predict market potential from audio features.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>SMARTTechNexus</strong> – AI Financial Data Research</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Led research on automating financial data extraction using AI tools.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>Xfinity/Comcast</strong> – Customer Analytics</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Improved customer data pipelines and enhanced user engagement insights.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>BizBox</strong> – Digital Marketing Analytics</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Implemented AI-based social media strategies to increase digital engagement.</li>
+            </ul>
+          </div>
+        </li>
       </ul>
 
       <h2>Projects</h2>
@@ -48,7 +87,7 @@
         <li>
           <strong>MusiStash</strong> – AI platform for artist investment insights  
           <br><em>Tech Stack:</em> Python, Flask, Spotify API  
-          <br><a href="https://github.com/akshathap06/musistash" target="_blank">🔗 View on GitHub</a>
+          <br><a href="https://musistash.com" target="_blank">🔗 View Website</a>
         </li>
         <li>
           <strong>NBA Predictor</strong> – LLM-powered NBA stats betting assistant  
@@ -66,7 +105,18 @@
       <p>Tallahassee, FL</p>
     </div>
   </div>
+
+  <script>
+    const buttons = document.querySelectorAll(".dropdown-btn");
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const content = btn.nextElementSibling;
+        content.style.display = content.style.display === "block" ? "none" : "block";
+      });
+    });
+  </script>
 </body>
 </html>
+
 
 
