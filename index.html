@@ -1,32 +1,119 @@
-<h2>Projects</h2>
-<div class="projects-grid">
-  <div class="project-card">
-    <img src="musistash.png" alt="MusiStash preview">
-    <h3>MusiStash</h3>
-    <p>An AI-powered platform enabling independent artists to raise funds using predictive scoring algorithms and fan engagement tools.</p>
-    <div class="project-links">
-      <a href="https://musistash.com" target="_blank">🌐</a>
-      <a href="https://github.com/akshathap06/musistash-platform" target="_blank">🐱</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akshat Thapliyal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <img class="profile-pic" src="pfp" alt="Akshat Profile Picture">
+    <div class="nav">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Experience</a>
     </div>
   </div>
 
-  <div class="project-card">
-    <img src="nbapredictor.png" alt="NBA Predictor preview">
-    <h3>NBA Predictor</h3>
-    <p>LLM-based Streamlit app that processes user prompts and returns player stat insights using FastAPI, MCP, and real-time stats APIs.</p>
-    <div class="project-links">
-      <a href="https://github.com/akshathap06/nbapredictor" target="_blank">🐱</a>
+  <div class="container">
+    <div class="left-panel">
+      <h1>Akshat Thapliyal</h1>
+      <p><strong>CS & Applied Math @ FSU | AI Developer | Researcher</strong></p>
+
+      <p class="bio">Driven by innovation at the intersection of AI, finance, and social impact. Founder of MusiStash, ex-Intern at MicroSave, and developer of AI solutions for predictive modeling in financial and creative markets.</p>
+
+      <p class="highlight">🚀 Open to opportunities in AI research, quant dev, and tech for social impact.</p>
+
+      <h2>Experience</h2>
+      <ul class="experience-list">
+        <li>
+          <button class="dropdown-btn"><strong>Sorba.AI</strong> – AI Data Science Intern</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Co-developed and fine-tuned custom transformer-based LLMs for clients like Coca-Cola and Johnson & Johnson.</li>
+              <li>Improved predictive maintenance accuracy by 35% and reduced unplanned equipment failures by 22%.</li>
+              <li>Integrated LLMs into IoT platforms, leading to $2.1M in estimated annual savings.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>MicroSave Consulting</strong> – Fintech Research Intern</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Researched 50+ AgriTech companies to shape CIHA innovation strategies.</li>
+              <li>Led 25+ stakeholder meetings, securing 10+ strategic partnerships.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>MusiStash</strong> – Founder</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Built a platform enabling fan-based music investment and AI-based artist evaluation.</li>
+              <li>Designed a proprietary algorithm to predict market potential from audio features.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>SMARTTechNexus</strong> – AI Financial Data Research</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Led research on automating financial data extraction using AI tools.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>Xfinity/Comcast</strong> – Customer Analytics</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Improved customer data pipelines and enhanced user engagement insights.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button class="dropdown-btn"><strong>BizBox</strong> – Digital Marketing Analytics</button>
+          <div class="dropdown-content">
+            <ul>
+              <li>Implemented AI-based social media strategies to increase digital engagement.</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <strong>MusiStash</strong> – AI platform for artist investment insights  
+          <br><em>Tech Stack:</em> Python, Flask, Spotify API  
+          <br><a href="https://musistash.com" target="_blank">🔗 View Website</a>
+        </li>
+        <li>
+          <strong>NBA Predictor</strong> – LLM-powered NBA stats betting assistant  
+          <br><em>Tech Stack:</em> Python, Streamlit, FastAPI, MCP, SQL  
+          <br><a href="https://github.com/akshathap06/nbapredictor" target="_blank">🔗 View on GitHub</a>
+        </li>
+        <li><em>New Project Coming Soon</em></li>
+      </ul>
+    </div>
+
+    <div class="right-panel">
+      <p><strong>Akshathapliyal27@gmail.com</strong></p>
+      <p><a href="https://www.linkedin.com/in/akshat-thapliyal-64b875279">LinkedIn</a></p>
+      <p>Florida State University</p>
+      <p>Tallahassee, FL</p>
     </div>
   </div>
 
-  <div class="project-card">
-    <img src="moviebrowser.png" alt="Movie Browser preview">
-    <h3>Movie Browser</h3>
-    <p>A fast, responsive React app that lets users search and view movie data using TMDB API. Built with Tailwind, Appwrite, and Vite.</p>
-    <div class="project-links">
-      <a href="https://github.com/akshathap06/MovieBrowser" target="_blank">🐱</a>
-    </div>
-  </div>
-</div>
-
-
+  <script>
+    const buttons = document.querySelectorAll(".dropdown-btn");
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const content = btn.nextElementSibling;
+        content.style.display = content.style.display === "block" ? "none" : "block";
+      });
+    });
+  </script>
+</body>
+</html>
